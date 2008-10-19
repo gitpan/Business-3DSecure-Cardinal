@@ -16,7 +16,7 @@ require Exporter;
 @ISA = qw( Exporter AutoLoader Business::3DSecure );
 @EXPORT = qw();
 @EXPORT_OK = qw();
-$VERSION = '0.05';
+$VERSION = '0.06';
 
 # constants
 use constant TIMEOUT => '10';

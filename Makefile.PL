@@ -7,6 +7,7 @@ WriteMakefile(
     VERSION_FROM      => 'lib/Business/3DSecure/Cardinal.pm', # finds $VERSION
     PREREQ_PM         => {
                            'Business::3DSecure' => 0,
+                           'Error'              => 0,
                            'LWP::UserAgent'     => 0,
                            'SOAP::Lite'         => 0, 
                          }, # e.g., Module::Name => 1.1
